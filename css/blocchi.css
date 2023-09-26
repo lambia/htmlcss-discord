@@ -1,0 +1,22 @@
+/* in questo file un approccio per "blocchi" */
+
+.flex-container {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto;
+	min-height: 300px;
+	padding: 64px 0;
+}
+.bigColumn {
+	width: 67%;
+	background-color: dodgerblue;
+	border: dashed 2px black;
+}
+.smallColumn {
+	width: 33%;
+	background-color: pink;
+	border: dashed 2px black;
+}
+.grayed {
+	background: lightgray;
+}

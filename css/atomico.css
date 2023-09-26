@@ -1,0 +1,33 @@
+/* in questo file un approccio "atomico", che quindi richiede "utilites.css" */
+
+body {
+	font-family: sans-serif;
+}
+
+#menu-column > ul {
+	list-style: none;
+}
+
+.dashed {
+	border: dashed 2px black;
+}
+
+.dashed-white {
+	border: dashed 2px white;
+}
+
+#login-column {
+	text-align: right;
+}
+
+.jumbo-content {
+	margin: 0 auto;
+}
+
+.minHeight {
+	min-height: 350px;
+}
+
+footer > hr {
+	margin-bottom: 64px;
+}
