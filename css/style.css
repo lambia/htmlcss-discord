@@ -1,0 +1,20 @@
+body {
+	font-family: sans-serif;
+}
+
+#menu-column > ul {
+	list-style: none;
+}
+
+.dashed {
+	border: dashed 2px black;
+}
+
+#login-column {
+	text-align: right;
+}
+
+.jumbo-content {
+	margin: 0 auto;
+	min-height: 300px;
+}
