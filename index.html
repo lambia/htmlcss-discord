@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
 	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="css/atomico.css">
 	<link rel="stylesheet" href="css/blocchi.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
 
 	<header class="bg-header">
@@ -43,9 +46,12 @@
 		<div id="jumbotron" class="d-flex minHeight py-64">
 			<div class="jumbo-content container w-50">
 				<h1 class="mb-32">Il tuo posto per parlare</h1>
-				<p class="mb-32">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+				<p class="mb-32">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica
+					mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord
+					rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
 				<a href="#" class="btn btn-white mx-8">
-					<img src="./icone/down-long.svg" class="pr-8" alt="">
+					<!-- <img src="./icone/down-long.svg" class="pr-8" alt=""> -->
+					<i class="fa-solid fa-arrow-down-long mr-8"></i>
 					Scarica per Mac
 				</a>
 				<a href="#" class="btn btn-black mx-8">Apri Discord nel tuo browser</a>
@@ -57,16 +63,30 @@
 		<!-- INIZIO APPROCCIO A BLOCCHI/CLASSI -->
 		<section>
 			<div class="flex-container">
-				<div class="bigColumn"></div>
-				<div class="smallColumn"></div>
+				<div class="bigColumn">
+					<img src="./img/item1.svg" alt="Item 1" class="w-100 px-32">
+				</div>
+				<div class="smallColumn">
+					<h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+					<p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+						semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+				</div>
 			</div>
 		</section>
+		<div class="wave"></div>
 		<section class="grayed">
 			<div class="flex-container">
-				<div class="smallColumn"></div>
-				<div class="bigColumn"></div>
+				<div class="smallColumn">
+					<h2>Dove trovarsi é facile</h2>
+					<p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
+						sei lì e unirsi istantaneamente senza dover chiamare.</p>
+				</div>
+				<div class="bigColumn">
+					<img src="./img/item2.svg" alt="Item 1" class="w-100 px-32">
+				</div>
 			</div>
 		</section>
+		<div class="wave upsidedown"></div>
 		<!-- FINE APPROCCIO A BLOCCHI/CLASSI -->
 
 		<section>
@@ -75,6 +95,15 @@
 				<div class="w-40 bg-pink"></div>
 			</div>
 		</section>
+		<div>
+			<!-- <img class="waveImage" src="./img/wave.svg" alt=""> -->
+			<svg class="wave-1hkxOo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"
+				preserveAspectRatio="none">
+				<path class="wavePath-haxJK1 animationPaused-2hZ4IO"
+					d="M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z"
+					fill="currentColor"></path>
+			</svg>
+		</div>
 		<section class="bg-lightgray">
 			<div class="minHeight container d-flex py-64">
 				<div class="w-40 bg-pink"></div>
@@ -89,7 +118,29 @@
 		</section>
 		<section class="bg-lightgray">
 			<div class="minHeight container d-flex py-64">
-				<div class="w-100 bg-forestgreen"></div>
+				<div class="w-100 text-center">
+
+					<div>
+						<h2>Tecnologia affidabile per tenersi in contatto</h2>
+						<p>
+							Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza.
+							Fai ciao in
+							video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
+							condivisione
+							schermo.
+						</p>
+					</div>
+
+					<img class="w-50" src="./img/item4-big.svg" alt="">
+
+					<h3 class="starred-title">Pronto a iniziare la tua avventura?</h3>
+
+					<a href="#" class="btn mx-8">
+						<i class="fa-solid fa-arrow-down-long mr-8"></i>
+						Scarica per Mac
+					</a>
+
+				</div>
 			</div>
 		</section>
 	</main>
@@ -110,6 +161,7 @@
 			<div class="bg-lightgray p-8">Bottone</div>
 		</div>
 	</footer>
-	
+
 </body>
+
 </html>

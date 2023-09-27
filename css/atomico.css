@@ -74,3 +74,46 @@ a {
 .btn > img {
 	height: 1em;
 }
+
+main h2 {
+	font-size: 48px;
+	margin: 30px 0;
+}
+main p {
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.wave {
+	background-image: url(../img/wave.svg);
+	background-size: cover;
+	height: 100px;
+	opacity: 0.17;
+}
+
+.upsidedown {
+	transform: rotate(180deg);
+}
+
+.waveImage {
+	width: 100%;
+}
+
+.wave-1hkxOo {
+	color: lightgray;
+	display: block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.starred-title {
+	margin: 50px 0;
+	font-size: 40px;
+	background-image: url(../img/stars.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding-top: 50px;
+}

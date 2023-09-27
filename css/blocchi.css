@@ -9,12 +9,12 @@
 }
 .bigColumn {
 	width: 67%;
-	background-color: dodgerblue;
+	/* background-color: dodgerblue; */
 	/* border: dashed 2px black; */
 }
 .smallColumn {
 	width: 33%;
-	background-color: pink;
+	/* background-color: pink; */
 	/* border: dashed 2px black; */
 }
 .grayed {
