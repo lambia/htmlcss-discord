@@ -31,3 +31,46 @@ body {
 footer > hr {
 	margin-bottom: 64px;
 }
+
+a {
+	text-decoration: none;
+}
+
+#menu-column li > a {
+	color: white;
+}
+
+.btn {
+    border-radius: 23px;
+	background: #7289da;
+	color: white;
+    padding: 16px 32px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.btn-small {
+    padding: 8px 16px;
+	font-size: 12px;
+}
+
+.btn-white {
+	background: white;
+    color: black;
+}
+
+.btn-black {
+	background: black;
+}
+
+#jumbotron {
+	background-image: url(../img/jumbo.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+}
+
+.btn > img {
+	height: 1em;
+}

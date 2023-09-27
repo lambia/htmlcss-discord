@@ -10,12 +10,12 @@
 .bigColumn {
 	width: 67%;
 	background-color: dodgerblue;
-	border: dashed 2px black;
+	/* border: dashed 2px black; */
 }
 .smallColumn {
 	width: 33%;
 	background-color: pink;
-	border: dashed 2px black;
+	/* border: dashed 2px black; */
 }
 .grayed {
 	background: lightgray;
